@@ -1,16 +1,12 @@
 #include <stdio.h>
-
-
-
 /**
+ ** main - Entry point
  *
- *  * main - Entry point
+ **
  *
- *   *
+ ** Return: Always 0 (Success)
  *
- *    * Return: Always 0 (Success)
- *
- *     */
+ **/
 
 int main(void)
 
@@ -43,9 +39,3 @@ int main(void)
 }
 
 
-
-7. (100-intel)
-
-#!/bin/bash
-
-	gcc -S -masm=intel $CFILE
