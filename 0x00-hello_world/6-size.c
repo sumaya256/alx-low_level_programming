@@ -11,16 +11,15 @@
 int main(void)
 
 {
-
 		int a;
 
-			long int b;
+		long int b;
 
-				long long int c;
+		long long int c;
 
-					char d;
+		char d;
 
-						float f;
+		float f;
 
 
 
