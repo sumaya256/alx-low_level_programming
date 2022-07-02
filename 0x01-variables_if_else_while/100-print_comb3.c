@@ -25,35 +25,24 @@ e = 48;
 {
 	if (e != i && e < i)
 {
-																												putchar(e);
+	putchar(e);
+	putchar(i);
+	if (i == 57 && e == 56)
+{
+	break;
+}
+	putchar(',');
 
-																																putchar(i);
+	putchar(' ');
 
-																																				if (i == 57 && e == 56)
+}
+	i++;
+}
+	e++;
+}
+	putchar('\n');
 
-																																									{
-
-																																															break;
-
-																																																			}
-
-																																								putchar(',');
-
-																																												putchar(' ');
-
-																																															}
-
-																						i++;
-
-																								}
-
-														e++;
-
-															}
-
-						putchar('\n');
-
-							return (0);
+	return (0);
 
 }
 
