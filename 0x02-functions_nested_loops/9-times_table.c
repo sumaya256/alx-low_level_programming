@@ -22,7 +22,7 @@ int rep;
 	else if (rep < 10)
 {
 _putchar(' ');
-_putchar('0'+rep);	
+_putchar('0' + rep);
 }
 	else
 {
@@ -31,8 +31,8 @@ _putchar('0'+rep);
 }
 	if (b < 9)
 {
-	_putchar(',');
-	_putchar(' ');
+_putchar(',');
+_putchar(' ');
 }	
 	b++;
 }
