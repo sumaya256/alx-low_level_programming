@@ -39,5 +39,4 @@ int rep;
 	_putchar('\n');
 	a++;
 
-
 }
