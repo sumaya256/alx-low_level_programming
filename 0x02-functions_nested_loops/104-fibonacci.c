@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - block to be executed
- * Description: computes
- * Return: 0
- */
+* main - block to be executed
+* Description: computes
+* Return: 0
+*/
 int main(void)
 {
 unsigned long int i;
