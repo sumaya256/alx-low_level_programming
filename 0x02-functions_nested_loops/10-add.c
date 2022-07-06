@@ -1,19 +1,15 @@
 #include "main.h"
 /**
- * * add - returns sum of parameters
+ * add - returns sum of parameters
  *
- *  * @a: int type
+ *  @a: int type
  *
- *   * @b: int typr
+ * @b: int typr
  *
- *    * Return: 0
+ * Return: 0
  *
- *     */
-
+ */
 int add(int a, int b)
-
 {
-
-		return (a + b);
-
+	return (a + b);
 }
