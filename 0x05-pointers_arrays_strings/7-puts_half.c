@@ -4,7 +4,7 @@
 *@str: pointer
 *Return: void
 */
-void puts _ half (char *s)
+void puts _ half(char *s)
 {
 int len, n, i;
 len = 0
@@ -12,7 +12,7 @@ len = 0
 {
 	len++;
 }
-	if(len % 2 == 0)
+	if (len % 2 == 0)
 {
 	for (i = len / 2; str[i] != '\0'; i++)
 {
@@ -21,7 +21,7 @@ len = 0
 }
 	else if (len % 2)
 {
-	for (n = (len - 1) / 2; n < len-1; n++)
+	for (n = (len - 1) / 2; n < len - 1; n++)
 	_putchar(str[n + 1];
 }
 }
