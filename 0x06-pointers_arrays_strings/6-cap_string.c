@@ -1,14 +1,14 @@
 #include "main.h"
 /**
-* *cap_string - capitalize words
-* @str: pointer
-* Return: capitalized string
+*cap_string - capitalize words
+*@str: pointer
+*Return: capitalized string
 */
 char *cap_string(char *str)
 {
 char sep[] = ",\t;\n; .!?\"(){}";
 int flag, i, ii;
-  for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 {
 	flag = 0;
 	if (i == 0)
@@ -17,8 +17,7 @@ int flag, i, ii;
 }
 	else
 {
-	for (ii = 0; sep[ii] != '\0'; ii++)
-{
+	for (ii = 0; sep[ii] != '\0'; i++)
 	if (str[i - 1] == sep[ii])
 {
 	flag = 1;
@@ -30,9 +29,10 @@ int flag, i, ii;
 {
 	if (str[i] <= 'z' && str[i] >= 'a')
 {
-	str[i] -= ('a' - 'A');
+	str[i] -= ('a' - 'A)'
 }
 }
 }
 	return (str);
-}
+
+	
