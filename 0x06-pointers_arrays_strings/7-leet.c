@@ -1,12 +1,12 @@
 #include "main.h"
 /**
-* leet - transform to leet
-* @s: char array string type
-* Return: s transformed
+*leet - transform to leet
+*@s: char array string type
+*Return: S transformed
 */
 char *leet(char *s)
 {
-  int i, ii;
+	int i, ii;
 	char s1[] = "aeotl";
 	char S1[] = "AEOTL";
 	char s2[] = "43071";
@@ -21,5 +21,5 @@ char *leet(char *s)
 }
 }
 }
-  return (s);
+	return (s);
 }
