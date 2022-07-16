@@ -17,7 +17,7 @@ int flag, i, ii;
 }
 	else
 {
-	for (ii = 0; sep[ii] != '\0'; i++)
+	for (ii = 0; sep[ii] != '\0'; ii++)
 	if (str[i - 1] == sep[ii])
 {
 	flag = 1;
@@ -29,8 +29,9 @@ int flag, i, ii;
 {
 	if (str[i] <= 'z' && str[i] >= 'a')
 {
-	str[i] -= ('a' - 'A)'
+	str[i] -= ('a' - 'A');
 }
 }
 }
-	return (str);	
+	return (str);
+}		
