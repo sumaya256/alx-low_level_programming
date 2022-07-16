@@ -29,7 +29,7 @@ int flag, i, ii;
 {
 	if (str[i] <= 'z' && str[i] >= 'a')
 {
-	str[i] -= ('a' - 'A)'
+	str[i] -= ('a' - 'A');
 }
 }
 }
