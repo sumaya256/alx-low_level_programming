@@ -12,8 +12,7 @@ char *t = accept;
 	while (*s++)
 {
 	while (*accept++)
-{
-	if (*(s - 1) == *(accept - 1)
+	if (*(s - 1) == *(accept - 1))
 {
 	c++;
 	break;
