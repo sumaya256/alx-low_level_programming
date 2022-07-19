@@ -2,6 +2,7 @@
 /**
 *print_chessboard - prints chessboard
 *@a: matrix
+*_putchar: prints results
 */
 void print_chessboard(char (*a)[8])
 {
