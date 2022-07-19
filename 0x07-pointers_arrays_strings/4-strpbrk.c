@@ -9,7 +9,6 @@
  *
  * Return: s;
  */
-
 char *_strpbrk(char *s, char *accept)
 {
 	while (*s != '\0')
