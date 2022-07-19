@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-*_strspn - gets the length of the prefix substring
-*@s: string where substring will look
-*@accept: substring of accepted characters
-*Return: length of occurence
+*_strspn - gets the length of the prefix substring.
+*@s: string where substring will look.
+*@accept: substring of accepted characters.
+*Return: length of occurence.
 */
 unsigned int _strspn(char *s, char *accept)
 {
