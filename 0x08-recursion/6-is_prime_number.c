@@ -22,7 +22,7 @@ int divisors(int n, int m)
 }
 }
 /**
-*is_prime_number - prime 
+*is_prime_number - prime
 *@n: integer params
 *Return: recursion
 */
