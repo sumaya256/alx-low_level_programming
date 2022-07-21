@@ -30,6 +30,7 @@ int p1(char *s, int 1)
 }
 	return (0);
 }
+}
 /**
 *is_palindrome - palindrome
 *@s: pointer to string
