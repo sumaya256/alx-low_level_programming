@@ -7,9 +7,9 @@
 
 int is_palindrome(char *s)
 {
-	char *p;
-	is_palindrome(s + 1);
-	p = &(*s);
+char *p;
+is_palindrome(s + 1);
+p = &(*s);
 	if (*p == *s)
 {
 	return (1);
