@@ -14,3 +14,4 @@ unsigned int i;
 	dest[i] = src[i];
 }
 	return (dest);
+}
