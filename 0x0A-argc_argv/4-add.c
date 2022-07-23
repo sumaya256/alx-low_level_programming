@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-#include "main.h"
 /**
 *main - adds positive numbers
 *@argc: number of arguments
@@ -23,7 +22,7 @@ int sum = 0;
 {
 	if (!isdigit(argv[i][j]))
 {
-	printf("Ërror\n");
+	printf("Error\n");
 	return (1);
 }
 }
