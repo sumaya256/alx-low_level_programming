@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <ctype.h>
 /**
-* main - adds posiitive numbers
-* @argc: number of arguments
-* @argv: array of arguments
-* Return: 0 if successful, 1 if error
+*main - adds positive numbers
+*@argc: number of arguments
+*@argv: array of arguments
+*Return: 0 if successful 1 if error
 */
 int main(int argc, char **argv)
 {
@@ -22,7 +22,7 @@ int sum = 0;
 {
 	if (!isdigit(argv[i][j]))
 {
-	printf("Error\n");
+	printf("Ërror\n");
 	return (1);
 }
 }
@@ -31,3 +31,5 @@ int sum = 0;
 	printf("%d\n", sum);
 	return (0);
 }
+
+
