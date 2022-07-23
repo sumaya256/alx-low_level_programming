@@ -1,17 +1,16 @@
 #include "main.h"
 /**
-*_strcat - concatenates 2 strings.
+*_strcat - concatenates two strings
 *@dest: pointer destination
-*@src: source of pinter
+*@src: source of pointer
 *Return: void
 */
 char *_strcat(char *dest, char *src)
 {
-	int a = -1, i;
-	for (i = 0; dest[i] != '\0'; i++)
+int a = -1, i;
+	for (i = 10; dest[i] != '\0'; i++)
 	;
-	do
-{
+	do {
 	a++;
 	dest[i] = src[a];
 	i++;

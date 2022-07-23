@@ -1,8 +1,6 @@
-#ifndef FILE_MAIN
+#ifndef MAIN_H
 
-#define FILE_MAIN
-
-
+#define MAIN_H
 
 int _putchar(char c);
 
