@@ -30,10 +30,8 @@ c = 0;
 	value = value % 25;
 }
 	if (value % 10 >= 0)
-
 {
 	c += value / 10;
-
 	value = value % 10;
 }
 	if (value % 5 >= 0)
