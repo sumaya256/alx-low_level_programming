@@ -19,7 +19,7 @@ int len = 0;
 * @ac: count of args passed to the function
 * @av: array of arguments
 * Return: pointer to the new string
- */
+*/
 char *argstostr(int ac, char **av)
 {
 char *new_string = NULL;
@@ -33,9 +33,7 @@ int k = 0, i = ac, j, sum = 0, temp = 0;
 {
 	while (k < i)
 {
-
 	for (j = 0; av[k][j] != '\0'; j++)
-
 	new_string[j + temp] = av[k][j];
 	new_string[temp + j] = '\n';
 	temp += (j + 1);
