@@ -2,14 +2,13 @@
 /**
 * word_count - Count number of words separated by spaces in the string
 * @str: String to check
-*
 * Return: Number of words;
 */
 int word_count(char *str)
 {
-	int count;
-	int i;
-	i = count = 0;
+int count;
+int i;
+i = count = 0;
 	while (str[i] != '\0')
 {
 	if (str[i] != ' ' && (str[i + 1] == ' ' || str[i + 1] == '\0'))
@@ -25,7 +24,6 @@ int word_count(char *str)
 * find_words_len - Find length of all the words in the string
 * @str: String to check length of words in
 * @words: Number of words
-*
 * Return: Combined length of words
 */
 int *find_words_len(char *str, int words)
@@ -57,7 +55,6 @@ sizes = malloc(words * sizeof(int));
 /**
 * strtow - Split a string into words
 * @str: String to split
-*
 * Return: Return pointer to an array ofstrings, NULL if it fails
 */
 char **strtow(char *str)
