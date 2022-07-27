@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * str_concat - a function that concatenates two strings
- * @s1: First string
- * @s2: Second string
- * Return: first string + second string
- */
+* str_concat - a function that concatenates two strings
+* @s1: First string
+* @s2: Second string
+* Return: first string + second string
+*/
 char *str_concat(char *s1, char *s2)
 {
 int i = 0, j = 0, l = 0, k = 0;
@@ -35,5 +35,4 @@ char *s;
 }
 	s[k] = '\0';
 	return (s);
-
 }
