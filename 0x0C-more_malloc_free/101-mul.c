@@ -16,7 +16,6 @@ int x = 0;
 }
 }
 /**
-*
 * _atoi - convert a string to n integer
 * @s: string
 * Return: converted integer
