@@ -31,7 +31,6 @@ int op_mul(int a, int b)
 }
 /**
 * op_div - divides two numbers
-*
 * @a: firsnt number
 * @b: second number
 * Return: result of division
