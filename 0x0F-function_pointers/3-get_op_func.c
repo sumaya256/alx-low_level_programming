@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
 * get_op_func - gets the correct function to perform the operation
-*
 * @s: operator passed 
 * Return: pointer to the function that corresponds to operator given
 */
@@ -17,5 +16,5 @@ op_t ops[] = {
 {NULL, NULL}
 };
 int i;
-get_op_func(op_t[argv[2]]);
+  get_op_func(op_t[argv[2]]);
 }
