@@ -52,7 +52,6 @@ void print_all(const char * const format, ...)
 	{ "s", _printstr },
 	{ "i", _printint }
 }
-	;
 	i = 0;
 	sep = "";
 	va_start(args, format);
