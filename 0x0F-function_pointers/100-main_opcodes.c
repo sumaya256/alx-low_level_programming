@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 /**
-*
 * main- Entry point
 * @argc: the number of parameters.
 * @argv: the parameeters in the case the number ob bytes.
