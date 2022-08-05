@@ -30,16 +30,16 @@ void _printfloat(va_list list)
 	printf("%f", va_arg(list, double));
 }
 /**
-* _printint - print int type element from va_list
-* @list: va_list passed to function
+*_printint - print int type element from va_list
+*@list: va_list passed to function
 */
 void _printint(va_list list)
 {
 	printf("%d", va_arg(list, int));
 }
 /**
-* print_all - print anything passed if char, int, float, or string.
-* @format: string of formats to use and print
+*print_all - print anything passed if char, int, float, or string.
+*@format: string of formats to use and print
 */
 void print_all(const char * const format, ...)
 {
