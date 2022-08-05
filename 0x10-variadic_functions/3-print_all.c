@@ -22,8 +22,8 @@ s = va_arg(list, char *);
 	printf("%s", s);
 }
 /**
-* _printfloat - print float type element from va_list
-* @list: va_list passed to function
+*_printfloat - print float type element from va_list
+*@list: va_list passed to function
 */
 void _printfloat(va_list list)
 {
