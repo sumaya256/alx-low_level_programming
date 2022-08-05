@@ -62,7 +62,7 @@ void print_all(const char * const format, ...)
 {
 	printf("%s", sep);
 		storage[j].f(args);
-		sep = ", ";
+		sep = " ";
 }
 		i++;
 }
