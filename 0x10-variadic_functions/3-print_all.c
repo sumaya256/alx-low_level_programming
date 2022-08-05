@@ -15,5 +15,5 @@ char c(char a)
 */
 void print_all(const char * const format, ...)
 {
-	va_list
+	va_list ()
 }
