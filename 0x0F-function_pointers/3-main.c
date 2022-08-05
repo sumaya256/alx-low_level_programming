@@ -1,33 +1,34 @@
 #include "3-calc.h"
+#include <stdlib.h>
+#include <stdio.h>
 /**
-* main - entry point
-* @argc: number of command line arguments
-* @argv: array of command line arguments
-* Return: always 0 (success)
+* main - main function
+* @argc: argument count
+* @argv: string of arguments in array
+* Return: 0
 */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-int num1, num2, operator, i;
-char operators[] = {'+', '-', '*', '=', '/', '%'};
+	int a, b;
+	int (*o)(int, int);
 	if (argc != 4)
 {
 	printf("Error\n");
-	exit (98);
+	exit(98);
 }
-	num1 = atoi(argv[1]);
-	operator = argv[2];
-	num2 = atoi(argv[3]);
-	for (i = 0; i < 5; i++)
-{
-	if (operator] != operators[i])
+	if (argv[2][1] != '\0')
 {
 	printf("Error\n");
-	exit (99);
+	exit(99);
 }
-}
-	if (num2 == 0)
+	o = get_op_func(argv[2]);
+	if (o == NULL)
 {
 	printf("Error\n");
-	exit (100);
+	exit(99);
 }
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
+	printf("%d\n", o(a, b));
+	return (0);
 }
