@@ -38,8 +38,8 @@ void _printint(va_list list)
 	printf("%d", va_arg(list, int));
 }
 /**
-* print_all - print anything passed if char, int, float, or string.
-* @format: string of formats to use and print
+*print_all - print anything passed if char, int, float, or string.
+*@format: string of formats to use and print
 */
 void print_all(const char * const format, ...)
 {
@@ -51,7 +51,8 @@ void print_all(const char * const format, ...)
 	{ "f", _printfloat },
 	{ "s", _printstr },
 	{ "i", _printint }
-};
+}
+	;
 	i = 0;
 	sep = "";
 	va_start(args, format);
