@@ -1,45 +1,75 @@
 #include "lists.h"
-#include <stdlib.h>
-/**
-* insert_nodeint_at_index - inserts a new node at a given position
-* @head: pointer to pointer to the first element
-* @idx: index where new element should be added
-* @n: element that should be added.
-* Return: address of new node or NULL
-*/
-listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
-{
-listint_t *newnode, *temp;
-unsigned int a = 0, count = 0;
-/* assign memory for new node element */
-newnode = malloc(sizeof(listint_t));
-	if (!newnode)
-{
-	return (NULL);
-}
-	newnode->n = n;
-/* count number of elements in list */
-	temp = *head;
-	while (temp)
-{
-count++;
-temp = temp->next;
-}
-/* check if index is greater than no. of elements */
-	if (a > count)
-{
-	return (NULL);
 
-}
-	else
+
+
+/**
+ *
+ *  * insert_nodeint_at_index - Insert a new node at a given positiion
+ *
+ *   * @head: First node address.
+ *
+ *    * @idx: Position of the new node to be inserted in.
+ *
+ *     * @n: Data of the new node.
+ *
+ *      * Return: Address of the new node.
+ *
+ *       **/
+
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
+
 {
-	temp = *head;
-	while (a < idx) /* iterate to idx and insert new node */
-{
-	temp = temp->next;
-	a++;
-}
-	temp = newnode;
-	return (temp);
-}
+
+		listint_t *new_node, *temp;
+
+			unsigned int i = 0;
+
+
+
+				if (*head == NULL && idx != 0)
+
+							return (NULL);
+
+					if (idx != 0)
+
+							{
+
+									temp = *head;
+
+										for (; i < idx - 1 && temp != NULL; i++)
+
+													temp = temp->next;
+
+											if (temp == NULL)
+
+														return (NULL);
+
+												}
+
+						new_node = malloc(sizeof(listint_t));
+
+							if (new_node == NULL)
+
+										return (NULL);
+
+								new_node->n = n;
+
+									if (idx == 0)
+
+											{
+
+														new_node->next = *head;
+
+																*head = new_node;
+
+																		return (new_node);
+
+																			}
+
+										new_node->next = temp->next;
+
+											temp->next = new_node;
+
+												return (new_node);
+
 }
